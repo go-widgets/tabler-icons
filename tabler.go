@@ -36,9 +36,8 @@ const (
 // outside the embedded set. The SVG draws with stroke="currentColor", so a
 // rasteriser's ink recolours it.
 func SVG(name string) (doc string, ok bool) {
-	if strings.ContainsAny(name, `/\.`) {
-		return "", false
-	}
+	// The embedded FS refuses any path that is not a plain file under icons/
+	// ("..", absolute, backslash names), so no separate name filter is needed.
 	b, err := fs.ReadFile(iconFS, "icons/"+name+".svg")
 	if err != nil {
 		return "", false
