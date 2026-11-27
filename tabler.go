@@ -30,6 +30,32 @@ var iconFS embed.FS
 const (
 	// Settings is a cog (Tabler "settings").
 	Settings = "settings"
+	// PlugConnected is a joined plug (Tabler "plug-connected"): connect.
+	PlugConnected = "plug-connected"
+	// PlugConnectedX is a plug with a cross (Tabler "plug-connected-x"): disconnect.
+	PlugConnectedX = "plug-connected-x"
+	// Login is an arrow into a door (Tabler "login-2"): sign in.
+	Login = "login-2"
+	// Logout is an arrow out of a door (Tabler "logout-2"): sign out.
+	Logout = "logout-2"
+	// Pencil is a pencil (Tabler "pencil"): edit.
+	Pencil = "pencil"
+	// Refresh is two arrows in a circle (Tabler "refresh"): reload.
+	Refresh = "refresh"
+	// ExternalLink is an arrow out of a box (Tabler "external-link"): open elsewhere.
+	ExternalLink = "external-link"
+	// X is a cross (Tabler "x"): cancel, close.
+	X = "x"
+	// Trash is a bin (Tabler "trash"): remove.
+	Trash = "trash"
+	// ArrowLeft is a left arrow (Tabler "arrow-left"): back.
+	ArrowLeft = "arrow-left"
+	// ArrowRight is a right arrow (Tabler "arrow-right"): next.
+	ArrowRight = "arrow-right"
+	// Check is a tick (Tabler "check"): done.
+	Check = "check"
+	// Plus is a plus sign (Tabler "plus"): add.
+	Plus = "plus"
 )
 
 // SVG returns the SVG document of the icon called name; ok is false for a name
