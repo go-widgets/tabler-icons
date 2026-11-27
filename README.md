@@ -14,7 +14,9 @@ draw := toolkit.SVGIcon(tabler.MustSVG(tabler.Settings))
 
 ## Size
 
-Only the icons in `icons/` are embedded (today: `settings`, 919 bytes), not the
+Only the icons in `icons/` are embedded (today: `settings`, `plug-connected`,
+`plug-connected-x`, `login-2`, `logout-2`, `pencil`, `refresh`, `external-link`,
+`x`, `trash`, `arrow-left`, `arrow-right`, `check`, `plus`; about 6 KB), not the
 ~5000-icon set. Source: `@tabler/icons` 3.35.0, `icons/outline/`.
 
 ## Adding an icon
